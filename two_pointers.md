@@ -1,9 +1,9 @@
-#Two Pointers#
+# Two Pointers
 
-##Problem sheet##
+## Problem sheet
 https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvVrY8/edit?gid=0#gid=0
 
-##Applicability conditions##
+## Applicability conditions
 - Array / Linked list question
 - Either given data is sorted or sorting would help
 - Merge / Remove duplicates / Rearrange
@@ -12,13 +12,13 @@ https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvV
 - Do not use extra space
 
 
-## Concepts ##
+## Concepts
 - At least one pointer should move after every iteration
 - Main logic is about understanding how the pointers move
 - When to stop?
 
 
-##Two Sum# 2, give numbers, not index#
+## Two Sum 2, give numbers, not index
 - Return a and b such that a+b = target
 - Array question
 - Sorting will help
