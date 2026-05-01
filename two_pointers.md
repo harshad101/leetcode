@@ -27,5 +27,6 @@ https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvV
 - First pointer: begin
 - Second pointer: end
 - Indices change after sorting, so if index is asked, and array is unsorted, can't sort and can't use two pointer
+- If index is asked, and array is sorted, two pointers will work
 - How pointers should move for each condition: sum < target, sum == target, sum > target
 - When to stop?
