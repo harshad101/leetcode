@@ -15,7 +15,8 @@ https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvV
 ## Concepts
 - At least one pointer should move after every iteration
 - Main logic is about understanding how the pointers move
-- When to stop?
+- When to stop
+- Invariant should make sure we do not continue if we somehow reach an error condition
 
 
 ## Two Sum 2, give numbers, not index
@@ -30,3 +31,6 @@ https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvV
 - If index is asked, and array is sorted, two pointers will work
 - How pointers should move for each condition: sum < target, sum == target, sum > target
 - When to stop?
+- while i < j, not even i!=j because if somehow i > j, then we will keep on looping while never reaching a solution
+- Time complexity: O(n log N) [sorting]
+- Space complexity: O(1)
